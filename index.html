@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Javascript Function</title>
+</head>
+<body>
+    <header>
+        <h1><span>Javascript</span> Function Tasks</h1>
+    </header>
+    <main>
+        <div class="task">
+            <h2>Task <span>#1</span></h2>
+            <p>Write a function that takes in a number from an input element and displays the factorial of that number
+                in an output element.</p>
+            <h3><span>Input:</span></h3>
+            <form onsubmit="task1(); return false" class="search">
+                <input id="taskOneInput" type="text" placeholder="Enter a number...">
+                <button type="submit" onclick="task1()">Enter</button>
+            </form>
+            <h3><span>Result:</span></h3>
+            <div class="result">
+                <input id="taskOneResult" type="text" disabled>
+            </div>
+        </div>
+        <div class="task">
+            <h2>Task <span>#2</span></h2>
+            <p>Write a function that takes in a string from an input element and displays the same string with all the
+                vowels removed in an output element.</p>
+            <h3><span>Input:</span></h3>
+            <form onsubmit="task2(); return false" class="search">
+                <input id="taskTwoInput" type="text" placeholder="Enter a word...">
+                <button type="submit" onclick="task2()">Enter</button>
+            </form>
+            <h3><span>Result:</span></h3>
+            <div class="result">
+                <input id="taskTwoResult" type="text" disabled>
+            </div>
+        </div>
+        <div class="task">
+            <h2>Task <span>#3</span></h2>
+            <p>Write a function that takes in an array of numbers from an input element and displays the largest number
+                in the array in an output element.</p>
+            <h3><span>Input:</span></h3>
+            <form onsubmit="task3(); return false" class="search">
+                <input id="taskThreeInput" type="text" placeholder="Enter numbers...">
+                <button type="submit" onclick="task3()">Enter</button>
+            </form>
+            <p class="info">Separated by , e.g. 56,47,13</p>
+            <h3><span>Result:</span></h3>
+            <div class="result">
+                <input id="taskThreeResult" type="text" disabled>
+            </div>
+        </div>
+        <div class="task">
+            <h2>Task <span>#4</span></h2>
+            <p>Write a function that takes in a string from an input element and displays the same string with the first
+                letter of every word capitalized in an output element.</p>
+            <h3><span>Input:</span></h3>
+            <form onsubmit="task4(); return false" class="search">
+                <input id="taskFourInput" type="text" placeholder="Enter words...">
+                <button type="submit" onclick="task4()">Enter</button>
+            </form>
+            <p class="info">e.g. malik ahsan khan azam</p>
+            <h3><span>Result:</span></h3>
+            <div class="result">
+                <input id="taskFourResult" type="text" disabled>
+            </div>
+        </div>
+        <div class="task">
+            <h2>Task <span>#5</span></h2>
+            <p>Write a function that takes in an array of numbers from an input element and displays the average of
+                those numbers in an output element.</p>
+            <h3><span>Input:</span></h3>
+            <form onsubmit="task5(); return false" class="search">
+                <input id="taskFiveInput" type="text" placeholder="Enter numbers...">
+                <button type="submit" onclick="task5()">Enter</button>
+            </form>
+            <p class="info">Separated by , e.g. 56,47,13</p>
+            <h3><span>Result:</span></h3>
+            <div class="result">
+                <input id="taskFiveResult" type="text" disabled>
+            </div>
+        </div>
+        <div class="task">
+            <h2>Task <span>#6</span></h2>
+            <p>Write a function that takes in a string from an input element and displays true if the string is a
+                palindrome and false if it is not in an output element.</p>
+            <h3><span>Input:</span></h3>
+            <form onsubmit="task6(); return false" class="search">
+                <input id="taskSixInput" type="text" placeholder="Enter a word...">
+                <button type="submit" onclick="task6()">Enter</button>
+            </form>
+            <h3><span>Result:</span></h3>
+            <div class="result">
+                <input id="taskSixResult" type="text" disabled>
+            </div>
+        </div>
+        <div class="task">
+            <h2>Task <span>#7</span></h2>
+            <p>Write a function that takes in an array of strings from an input element and displays a new array with
+                all the strings sorted in alphabetical order in an output element.</p>
+            <h3><span>Input:</span></h3>
+            <form onsubmit="task7(); return false" class="search">
+                <input id="taskSevenInput" type="text"
+                    placeholder="Enter words...">
+                <button type="submit" onclick="task7()">Enter</button>
+            </form>
+            <p class="info">Separated by , e.g. Zahid,Malik,Kashan,Burhan</p>
+            <h3><span>Result:</span></h3>
+            <div class="result">
+                <input id="taskSevenResult" type="text" disabled>
+            </div>
+        </div>
+        <div class="task">
+            <h2>Task <span>#8</span></h2>
+            <p>Write a function that takes in a number from an input element and displays true if the number is prime
+                and false if it is not in an output element.</p>
+            <h3><span>Input:</span></h3>
+            <form onsubmit="task8(); return false" class="search">
+                <input id="taskEightInput" type="text"
+                    placeholder="Enter a number...">
+                <button type="submit" onclick="task8()">Enter</button>
+            </form>
+            <h3><span>Result:</span></h3>
+            <div class="result">
+                <input id="taskEightResult" type="text" disabled>
+            </div>
+        </div>
+        <div class="task">
+            <h2>Task <span>#9</span></h2>
+            <p>Write a function that takes in an array of objects from an input element and displays a new array with
+                all the objects sorted by a given property in an output element.</p>
+            <h3><span>Input:</span></h3>
+            <form onsubmit="task9(); return false" class="search">
+                <input id="taskNineInput" type="text" placeholder="Enter numbers/strings....">
+                <button type="submit" onclick="task9()">Enter</button>
+            </form>
+            <p class="info">Separated by , e.g. Zahid,Muzzammil,Ahsan/57,10,28,7</p>
+            <select id="selection">
+                <option value="numAscend">Numbers in ascending order</option>
+                <option value="numDescend">Numbers in descending order</option>
+                <option value="strAscend">Strings in ascending order</option>
+                <option value="strDescend">Strings in descending order</option>
+            </select>
+            <h3><span>Result:</span></h3>
+            <div class="result">
+                <input id="taskNineResult" type="text" disabled>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./app.js"></script>
+</html>
