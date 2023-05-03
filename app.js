@@ -62,10 +62,10 @@ function task6() {
     let input = document.getElementById('taskSixInput').value
     let isPalindrome = input === input.split("").reverse().join("");
     if (!isPalindrome) {
-        document.getElementById('taskSixResult').value = "The word '" + input + "' is not a Palindrome"
+        document.getElementById('taskSixResult').value = "'" + input + "' is not a Palindrome"
     }
     else {
-        document.getElementById('taskSixResult').value = "The word '" + input + "' is a Palindrome"
+        document.getElementById('taskSixResult').value = "'" + input + "' is a Palindrome"
     }
 }
 
