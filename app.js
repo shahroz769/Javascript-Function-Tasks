@@ -62,10 +62,10 @@ function task6() {
     let input = document.getElementById('taskSixInput').value
     let isPalindrome = input === input.split("").reverse().join("");
     if (!isPalindrome) {
-        document.getElementById('taskSixResult').value = "'" + input + "' is not a Palindrome"
+        document.getElementById('taskSixResult').value = "'" + input + "' is not a Palindrome."
     }
     else {
-        document.getElementById('taskSixResult').value = "'" + input + "' is a Palindrome"
+        document.getElementById('taskSixResult').value = "'" + input + "' is a Palindrome."
     }
 }
 
@@ -87,16 +87,16 @@ function task7() {
 function task8() {
     let input = +document.getElementById('taskEightInput').value;
     if (input < 2) {
-        document.getElementById('taskEightResult').value = "False. The given number is not a Prime number.";
+        document.getElementById('taskEightResult').value = "'" + input + "' is not a Prime number.";
         return;
     }
     for (let i = 2; i <= Math.sqrt(input); i++) {
         if (input % i === 0) {
-            document.getElementById('taskEightResult').value = "False. The given number is not a Prime number.";
+            document.getElementById('taskEightResult').value = "'" + input + "' is not a Prime number.";
             return;
         }
     }
-    document.getElementById('taskEightResult').value = "True. The given number is a Prime number";
+    document.getElementById('taskEightResult').value = "'" + input + "' is a Prime number.";
 }
 
 function task9() {
