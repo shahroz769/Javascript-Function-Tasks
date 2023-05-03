@@ -24,6 +24,7 @@ h1 {
 h2 {
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 12px;
 }
 
 h3 {
@@ -42,7 +43,7 @@ p {
     background-color: #E6E5EA;
     display: flex;
     justify-content: center;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 .search input,
@@ -55,7 +56,7 @@ p {
     padding: 12px;
     font-size: 16px;
     width: 100%;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 select{
@@ -70,7 +71,7 @@ button {
     font-weight: 700;
     font-size: 16px;
     padding: 6px 20px;
-    border-radius: 0 6px 6px 0;
+    border-radius: 0 10px 10px 0;
 }
 
 .search input::placeholder {
@@ -94,7 +95,7 @@ main {
 .task {
     background-color: #24232C;
     max-width: 1250px;
-    border-radius: 6px;
+    border-radius: 16px;
     padding: 24px;
 
 }
